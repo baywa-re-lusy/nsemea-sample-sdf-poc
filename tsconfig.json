@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "target": "ES2020",
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "strictNullChecks" :true,
+    "noUnusedLocals": false,
+    "moduleResolution": "node",
+    "newLine": "LF",
+    "baseUrl": ".",
+    "lib": ["ES2019", "dom"],
+    "paths": {
+      "N/*": ["node_modules/@hitc/netsuite-types/N/*"],
+      "@nsemea_lib/*" : ["src/Typescripts/nsemea_lib/*"],
+      "@nsemea_lib_sdf/*" : ["src/Typescripts/nsemea_lib/*"]
+    },
+    "outDir": "src/FileCabinet/SuiteScripts/NSEMEA/Sample"
+  },
+  "include": [
+    "src/Typescripts/**/*"
+  ],
+  "exclude": ["node_modules"]
+}
