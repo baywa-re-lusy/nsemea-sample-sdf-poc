@@ -16,7 +16,7 @@ export function beforeLoad(context: EntryPoints.UserEvent.beforeLoadContext) {
     context.form.addButton({
       id: 'custpage_nsemea_sample_poc_btn',
       label: 'Sample TS',
-      functionName: 'onCSampleTSButtonClick',
+      functionName: 'onSampleTSButtonClick',
     });
   }
 }

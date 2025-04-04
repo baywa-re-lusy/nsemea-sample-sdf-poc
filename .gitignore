@@ -44,4 +44,5 @@ src/FileCabinet/SuiteScripts
 
 # Output of 'npm pack'
 *.tgz
-
+src/Typescripts/nsemea_lib
+tests/__mock__/N
